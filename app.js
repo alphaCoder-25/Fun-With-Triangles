@@ -13,5 +13,4 @@ function checkTriangle(){
         output1.innerText = "Nope! This is not a Triangle";
     }
 }
-
 btnTriangle.addEventListener("click", checkTriangle);
