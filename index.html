@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Is Triangle?</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
         <a href="index.html">IsTriangle</a>
         <a href="quiz.html">Triangle Quiz</a>
         <a href="hypotenuse.html">Calculate Hypotenuse</a>
         <a href="area.html">Check Area of a Triangle</a>
     </nav>
     <h1>Is Triangle?</h1>
-    <label for="angle-1">Angle 1 (in degrees)</label>
-    <input id="angle-1" type="number" class="angles">
-    <label for="angle-2">Angle 2 (in degrees)</label>
-    <input id="angle-2" type="number" class="angles">
-    <label for="angle-3">Angle 3 (in degrees)</label>
-    <input id="angle-3" type="number" class="angles">
-    <button id="btn-triangle">Is Triangle?</button>
+    <div class="container">
+        <label for="angle-1">Angle 1 (in degrees)</label>
+        <input id="angle-1" type="number" class="angles">
+        <label for="angle-2">Angle 2 (in degrees)</label>
+        <input id="angle-2" type="number" class="angles">
+        <label for="angle-3">Angle 3 (in degrees)</label>
+        <input id="angle-3" type="number" class="angles">
+        <button id="btn-triangle">Is Triangle?</button>
     <h2 id="output-1"></h2> 
+    </div>
     <script src="./IsTriangle.js"></script>   
 </body>
 </html>
